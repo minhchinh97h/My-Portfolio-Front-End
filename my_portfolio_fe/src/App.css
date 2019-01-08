@@ -39,7 +39,7 @@
 .first-content{
   display: flex;
   width: 80%;
-  background-color: rgba(157, 229, 231, 0.849);
+  background-color: #CDF6FF;
   transition: width 0.4s;
 }
 
@@ -52,8 +52,8 @@
   display: flex;
   justify-content: center;
   transition: transform 0.4s, width 0.4s;
-  border-left: 1px solid rgb(232, 136, 252);
-  cursor: pointer;
+  border-left: 1px solid rgb(103, 123, 127);
+  background-color: rgb(103, 186, 204)
 }
 
 
@@ -70,26 +70,109 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .name-wrapper-active{
   width: 5%;
-  background-color: pink;
+  background-color: #40747F;
 }
 
 .name-wrapper p {
   writing-mode: vertical-lr;
   text-orientation: upright;
-  color: rgb(60, 83, 216);
+  color: white;
 }
 
 .content-wrapper{
-  width: 0%
+  width: 0%;
+  display: none;
 }
 
-.content-wrapper-active{
-  /* width: calc(100% - 70px); */
+.content-wrapper-active{  
+  display: block;
   width: 95%;
-  background-color: white;
+  background-color: #CDF6FF;
 }
 
+
+.home-grid{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-areas: 
+  'topLeft topLeft .       .       topRight topRight topRight topRight'
+  'topLeft topLeft center  center  center   center   .        .'
+  '.       .       center  center  center   center   .        .'
+  '.       .       center  center  center   center   botRight botRight'
+  'botLeft botLeft botLeft botLeft .      .        botRight botRight';
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(20, 78, 90);
+}
+
+.home-grid .home-center{
+  grid-area: center;
+  /* background-color: lightcyan; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  box-shadow: 5px 5px gainsboro;
+}
+
+
+.home-center span{
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.home-grid .home-top-left{
+  grid-area: topLeft;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid;
+}
+
+.home-top-left, .home-bot-left, .home-top-right, .home-bot-right span{
+  text-align: justify;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home-grid .home-top-right{
+  grid-area: topRight;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.home-grid .home-bot-left{
+  grid-area: botLeft;
+  /* background-color: lightseagreen; */
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+
+
+.home-grid .home-bot-right{
+  grid-area: botRight;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+}
