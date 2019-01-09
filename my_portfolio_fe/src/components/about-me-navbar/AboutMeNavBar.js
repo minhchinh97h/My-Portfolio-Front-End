@@ -10,7 +10,7 @@ class AboutMeNavBar extends Component{
         return(
             <div className="about-me-navbar right-item" id="about-me-navbar" >
                 <div className="name-wrapper" onClick={this.NavigateTo.bind(this, 0)}>
-                <p >Home</p>
+                <p>About</p>
                 </div>
                 <div className="content-wrapper">
                     <div className="home-grid">

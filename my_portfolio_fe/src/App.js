@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FirstContent from './components/first-content/FirstContent'
 import AboutMeNavBar from './components/about-me-navbar/AboutMeNavBar'
 import ProjectsNavbar from './components/projects-navbar/ProjectsNavbar'
 import BlogsNavbar from './components/blogs-navbar/BlogsNavbar'
@@ -55,6 +56,8 @@ class App extends Component {
         let firstContent = document.getElementById('first-content')
 
         firstContent.classList.remove('first-content-shrink')
+        document.getElementById('footer-img-stacks').classList.remove('footer-img-disappear')
+        document.getElementById('welcome-banner-holder').classList.remove('welcome-banner-disappear')
 
         //remove all the navbars transitions and reset the booleans
         for(let i =0; i < navbar_ids.length; i++){
@@ -80,6 +83,8 @@ class App extends Component {
 
       if(!firstContent.classList.contains('first-content-shrink')){
         firstContent.classList.add('first-content-shrink')
+        document.getElementById('footer-img-stacks').classList.add('footer-img-disappear')
+        document.getElementById('welcome-banner-holder').classList.add('welcome-banner-disappear')
       }
 
       //remove all the other navbars transitions and reset the booleans
@@ -114,9 +119,7 @@ class App extends Component {
 
         </div>
 
-        <div className="first-content" id="first-content">
-
-        </div>
+        <FirstContent />
 
         <AboutMeNavBar NavigateTo = {this.NavigateTo}/>
 
