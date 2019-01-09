@@ -1,0 +1,92 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home-grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    'topLeft topLeft .       .       topRight topRight topRight topRight'
+    'topLeft topLeft center  center  center   center   .        .'
+    '.       .       center  center  center   center   .        .'
+    '.       .       center  center  center   center   botRight botRight'
+    'botLeft botLeft botLeft botLeft .      .        botRight botRight';
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.02em 0.02em 1px rgb(172, 171, 171);
+  }
+} 
+
+  
+  .home-grid .home-center{
+    grid-area: center;
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    /* box-shadow: 5px 5px gainsboro; */
+    background:rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(182, 182, 182) inset;
+  }
+  
+  
+  .home-center span{
+    text-align: justify;
+    padding: 0 10px;
+  }
+  
+  .home-grid .home-top-left{
+    grid-area: topLeft;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px dashed; */
+  }
+  
+  .home-top-left, .home-bot-left, .home-top-right, .home-bot-right span{
+    text-align: justify;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .home-grid .home-top-right{
+    grid-area: topRight;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 1px dashed; */
+  }
+  
+  .home-grid .home-bot-left{
+    grid-area: botLeft;
+    /* background-color: lightseagreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 1px dashed; */
+  }
+  
+  
+  .home-grid .home-bot-right{
+    grid-area: botRight;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px dashed; */
+  }
