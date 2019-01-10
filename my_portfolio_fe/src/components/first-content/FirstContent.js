@@ -28,7 +28,7 @@ class FirstContent extends Component{
                             <i className="fas fa-copyright"></i>
                             </span>
                             <span>
-                            <p>CopyRights 2019</p>
+                            <p>Copyrights 2019</p>
                             </span>
                         </div>
                     </div>
