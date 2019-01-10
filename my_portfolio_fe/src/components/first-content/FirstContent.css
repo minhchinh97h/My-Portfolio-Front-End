@@ -125,19 +125,19 @@
   }
   
   .img-holder{
-    height: 70%;
-    width: 70%;
-    background-image: url('../../images/welcome-page/Tikkeri.JPG');
+    height: 500px;
+    width: 500px;
+    background-image: url('../../images/self-pics/self-picture-01.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
   }
   
-  .img-stack img{
+  /* .img-stack img{
     max-width: 100%;
     height: 100%;
     border-radius: 0px;
-  }
+  } */
   
   .footer-stack-holder{
     position: absolute;

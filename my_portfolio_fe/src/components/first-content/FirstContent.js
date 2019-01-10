@@ -37,9 +37,9 @@ class FirstContent extends Component{
                 <div className="footer-img-stacks" id="footer-img-stacks">
                     <div className="img-stack">
                     {/* <img srcSet="/images/welcome-page/Tikkeri.jpg" alt="welcome-img"></img> */}
-                    <div className="img-holder">
+                        <div className="img-holder">
 
-                    </div>
+                        </div>
                     </div>
                     <div className="footer-stack-holder">
                         <div className="footer-stack">
