@@ -16,27 +16,27 @@ class ProjectsNavbar extends Component{
                 <div className="content-wrapper">
                     <div className="projects-container">
                     <div className="project-item project1">
-                        <div className="project-content">
-                        <img src="/images/projects/configurator3D/live-demo-01.png" alt="configurator3d"></img>
+                        <a className="project-content" href="https://www.linkedin.com/in/chinh-duong-28679b157/detail/treasury/position:1388483098/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAACWraMYBaKrL1jaOetH6bgyiTtIJ5VOwy58%2C1542027362353)&section=position%3A1388483098&treasuryCount=2">
+                            <img src="/images/projects/configurator3D/live-demo-01.png" alt="configurator3d"></img>
 
-                        <div className="project-description">
-                            <h4>
-                            Configurator 3D
-                            </h4>
-                            <span>
-                            <p>
-                                Configurator 3D is a web-based application using Reactjs, Threejs, Css and Expressjs 4. Vamk owns the copyright
-                                of this application. With Configurator 3D, Vamk's clients can get experience with 3D displaying interface. The 
-                                behind system allows users to import their 3D JSON files (and also other formats) and modify them as update, insert,
-                                and delete any of parts that they want. Afterwards, users can view their models displayed by the web app.
-                            </p>
-                            </span>
-                        </div>
-                        </div>
+                            <div className="project-description">
+                                <h4>
+                                Configurator 3D
+                                </h4>
+                                <span>
+                                <p>
+                                    Configurator 3D is a web-based application using Reactjs, Threejs, Css and Expressjs 4. Vamk owns the copyright
+                                    of this application. With Configurator 3D, Vamk's clients can get experience with 3D displaying interface. The 
+                                    behind system allows users to import their 3D JSON files (and also other formats) and modify them as update, insert,
+                                    and delete any of parts that they want. Afterwards, users can view their models displayed by the web app.
+                                </p>
+                                </span>
+                            </div>
+                        </a>
                     </div>
 
                     <div className="project-item project2">
-                        <div className="project-content">
+                        <a className="project-content" href="https://github.com/minhchinh97h/OEA-FPT-Slovakia">
                         <img src="/images/projects/oea/fpt-slovakia.jpg" alt="oea"></img>
 
                         <div className="project-description">
@@ -53,11 +53,11 @@ class ProjectsNavbar extends Component{
                             </p>
                             </span>
                         </div> 
-                        </div>
+                        </a>
                     </div>
 
                     <div className="project-item project3">
-                        <div className="project-content">
+                        <a className="project-content" href="https://github.com/minhchinh97h/Tikeri-On-The-Run">
                         <img src="/images/projects/TikkeriOnTheRun/image-01.png" alt="tiontherun"></img>
 
                         <div className="project-description">
@@ -72,12 +72,11 @@ class ProjectsNavbar extends Component{
                             </p>
                             </span>
                         </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div className="project-item project4">
-                        <div className="project-content">
-                        {/* <img src=""></img> */}
+                        <a className="project-content" href="https://github.com/minhchinh97h/werewolf_client">
 
                         <div className="project-description">
                             <h4>
@@ -93,10 +92,10 @@ class ProjectsNavbar extends Component{
                             </p>
                             </span>
                         </div>
-                        </div>
+                        </a>
                     </div>
                     <div className="project-item project5">
-                        <div className="project-content">
+                        <a className="project-content" href="https://github.com/minhchinh97h/GlobuzzerTask281218-Client-Side">
                         <img src="/images/projects/globuzzer/first-page.png" alt="gbfhp"></img>
 
                         <div className="project-description">
@@ -111,7 +110,7 @@ class ProjectsNavbar extends Component{
                             </p>
                             </span>
                         </div>
-                        </div>
+                        </a>
                     </div>
                     </div>
                 </div>
