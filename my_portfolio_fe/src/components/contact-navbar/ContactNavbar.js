@@ -18,7 +18,7 @@ class ContactNavbar extends Component{
                     <div className="basic-information">
                         <div className="info-holder">
                         <div>
-                            <h2>Basic Information</h2>
+                            <h2>BASIC INFORMATION</h2>
                         </div>
 
                         <span>
