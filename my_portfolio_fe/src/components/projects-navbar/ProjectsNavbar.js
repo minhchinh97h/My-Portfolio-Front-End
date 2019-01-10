@@ -97,7 +97,7 @@ class ProjectsNavbar extends Component{
                     </div>
                     <div className="project-item project5">
                         <div className="project-content">
-                        <img src="/images/projects/globuzzer/first-page.png"></img>
+                        <img src="/images/projects/globuzzer/first-page.png" alt="gbfhp"></img>
 
                         <div className="project-description">
                             <h4>

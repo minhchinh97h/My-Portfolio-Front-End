@@ -7,21 +7,30 @@ class FirstContent extends Component{
             <div className="first-content" id="first-content">
                 <div className="welcome-banner-holder" id="welcome-banner-holder">
                     <div className="banner">
-                    <span>
-                        <h1>Welcome</h1>
-                    </span>
-                    <span>
-                        <h2>To</h2>
-                    </span>
-                    <span>
-                        <h1>DMC's </h1>
-                    </span>
-                    <span>
-                        <h1>Portfolio</h1>
-                    </span>
-                    <span>
-                        <p>(Duong Minh Chinh)</p>
-                    </span>
+                        <span>
+                            <h1>Welcome</h1>
+                        </span>
+                        <span>
+                            <h2>To</h2>
+                        </span>
+                        <span>
+                            <h1>DMC's </h1>
+                        </span>
+                        <span>
+                            <h1>Portfolio</h1>
+                        </span>
+                        <span>
+                            <p>(Duong Minh Chinh)</p>
+                        </span>
+
+                        <div className="banner-footer">
+                            <span>
+                            <i className="fas fa-copyright"></i>
+                            </span>
+                            <span>
+                            <p>CopyRights 2019</p>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
