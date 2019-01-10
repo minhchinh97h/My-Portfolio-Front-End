@@ -115,10 +115,6 @@ class App extends Component {
     return (
       <div className="App" role="main">
 
-        <div className="left-navbar">
-
-        </div>
-
         <FirstContent />
 
         <AboutMeNavBar NavigateTo = {this.NavigateTo}/>
