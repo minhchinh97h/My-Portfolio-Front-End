@@ -48,7 +48,9 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: url('')
+    background: url('../../images/self-pics/self-picture-01.jpg');
+    background-position: center;
+    background-size: cover;
   }
   
   .bussiness-section{
