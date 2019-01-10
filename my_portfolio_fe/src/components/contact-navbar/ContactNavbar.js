@@ -59,7 +59,7 @@ class ContactNavbar extends Component{
                         </div>
                     </div>
                     <div className="medium-size-self-pic">
-                        <img alt="contact-self-picture"></img>
+                        <img alt=""></img>
                     </div>
 
                     <div className="bussiness-section">

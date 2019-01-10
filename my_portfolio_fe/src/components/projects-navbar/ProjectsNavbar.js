@@ -17,7 +17,7 @@ class ProjectsNavbar extends Component{
                     <div className="projects-container">
                     <div className="project-item project1">
                         <a className="project-content" href="https://www.linkedin.com/in/chinh-duong-28679b157/detail/treasury/position:1388483098/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAACWraMYBaKrL1jaOetH6bgyiTtIJ5VOwy58%2C1542027362353)&section=position%3A1388483098&treasuryCount=2">
-                            <img src="/images/projects/configurator3D/live-demo-01.png" alt="configurator3d"></img>
+                            <img src="/images/projects/configurator3D/live-demo-01.png" alt=""></img>
 
                             <div className="project-description">
                                 <h4>
@@ -37,7 +37,7 @@ class ProjectsNavbar extends Component{
 
                     <div className="project-item project2">
                         <a className="project-content" href="https://github.com/minhchinh97h/OEA-FPT-Slovakia">
-                        <img src="/images/projects/oea/fpt-slovakia.jpg" alt="oea"></img>
+                        <img src="/images/projects/oea/fpt-slovakia.jpg" alt=""></img>
 
                         <div className="project-description">
                             <h4>
@@ -58,7 +58,7 @@ class ProjectsNavbar extends Component{
 
                     <div className="project-item project3">
                         <a className="project-content" href="https://github.com/minhchinh97h/Tikeri-On-The-Run">
-                        <img src="/images/projects/TikkeriOnTheRun/image-01.png" alt="tiontherun"></img>
+                        <img src="/images/projects/TikkeriOnTheRun/image-01.png" alt=""></img>
 
                         <div className="project-description">
                             <h4>
@@ -96,7 +96,7 @@ class ProjectsNavbar extends Component{
                     </div>
                     <div className="project-item project5">
                         <a className="project-content" href="https://github.com/minhchinh97h/GlobuzzerTask281218-Client-Side">
-                        <img src="/images/projects/globuzzer/first-page.png" alt="gbfhp"></img>
+                        <img src="/images/projects/globuzzer/first-page.png" alt=""></img>
 
                         <div className="project-description">
                             <h4>

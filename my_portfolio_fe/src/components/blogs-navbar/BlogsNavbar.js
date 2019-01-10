@@ -15,7 +15,7 @@ class BlogsNavbar extends Component{
                 
                 <div className="content-wrapper">
                     <div className="blog-content-container">
-                        <b>Currently Chinh is lazy but don't worry, this page is comming soon.</b>
+                        <b>Comming soon.</b>
                     </div>  
                 </div>
             </div>
